@@ -65,17 +65,13 @@ class LinkedList:
             
 my_list = LinkedList()
 
-# Insert some nodes at the beginning and end of the list
 my_list.insert_at_beginning(3)
 my_list.insert_at_end(5)
 my_list.insert_at_beginning(1)
 
-# Print the current list
-my_list.print_list()  # Output: 1 -> 3 -> 5
+my_list.print_list()
 
-# Delete the first and last nodes
 my_list.delete_at_beginning()
 my_list.delete_at_end()
 
-# Print the updated list
-my_list.print_list()  # Output: 3
+my_list.print_list() 
