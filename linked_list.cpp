@@ -1,11 +1,4 @@
 #include<iostream>
-
-
-/*
-
- .............................. from Creation of linked list to its insertion and deletion ...................................
-
-*/
 using namespace std;
 
 class node
